@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">网上药店</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_car_">购物车</string>
+    <string name="title_activity_forgot_info_activity">忘记密码</string>
+    <string name="title_activity_home_">主页</string>
+    <string name="title_activity_register_">注册</string>
+    <string name="title_activity_tab_">Tab_Activity</string>
+    <string name="title_activity_user_">我的</string>
+    <string name="title_activity_users_info_activity">UsersInfo_activity</string>
+    <string name="title_activity_search_">Search_Activity</string>
+    <string name="title_activity_home_fragment">HomeFragment</string>
+    <string name="title_activity_car_fragment">CarFragment</string>
+    <string name="title_activity_user_fragment">UserFragment</string>
+    <string name="title_activity_null_">Null_Activity</string>
+    <string name="title_activity_manager">ManagerActivity</string>
+    <string name="title_activity_usermanager">UsermanagerActivity</string>
+    <string name="title_activity_durg_manager">DurgManagerActivity</string>
+    <string name="title_activity_dmesmanager">DmesmanagerActivity</string>
+    <string name="title_activity_amess">AmessActivity</string>
+    <string name="title_activity_mypaid">MypaidActivity</string>
+    <string name="title_activity_thedetail">ThedetailActivity</string>
+    <string name="title_activity_adddurg">AdddurgActivity</string>
+
+</resources>

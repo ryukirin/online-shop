@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.durgshop"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <!-- if you want to load images from the internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.durgshop.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.durgshop.ForgotInfoActivity"
+            android:label="@string/title_activity_forgot_info_activity" >
+        </activity>
+        <activity
+            android:name="com.example.durgshop.RegisterActivity"
+            android:label="@string/title_activity_register_" >
+        </activity>
+        <activity
+            android:name="com.example.durgshop.TabActivity"
+            android:label="@string/title_activity_tab_" >
+        </activity>
+        <activity
+            android:name="com.example.durgshop.UsersInfoActivity"
+            android:label="@string/title_activity_users_info_activity" >
+        </activity>
+        <activity
+            android:name="com.example.durgshop.SearchActivity"
+            android:label="@string/title_activity_search_" >
+        </activity>
+        <activity
+            android:name="com.example.durgshop.NullActivity"
+            android:label="@string/title_activity_null_"
+            android:parentActivityName=".ManagerActivity" >
+        </activity>
+        <activity
+            android:name="com.example.durgshop.ManagerActivity"
+            android:label="@string/title_activity_manager" >
+        </activity>
+        <activity
+            android:name="com.example.durgshop.UsermanagerActivity"
+            android:label="@string/title_activity_usermanager"
+            android:parentActivityName=".ManagerActivity" >
+        </activity>
+        <activity
+            android:name="com.example.durgshop.DurgmanagerActivity"
+            android:label="@string/title_activity_durg_manager"
+            android:parentActivityName=".ManagerActivity" >
+        </activity>
+        <activity
+            android:name="com.example.durgshop.DmesmanagerActivity"
+            android:label="@string/title_activity_dmesmanager"
+            android:parentActivityName=".ManagerActivity" >
+        </activity>
+        <activity
+            android:name="com.example.durgshop.AmessActivity"
+            android:label="@string/title_activity_amess"
+            android:parentActivityName=".ManagerActivity" >
+        </activity>
+        <activity
+            android:name="com.example.durgshop.MypaidActivity"
+            android:label="@string/title_activity_mypaid" >
+        </activity>
+        <activity
+            android:name="com.example.durgshop.ThedetailActivity"
+            android:label="@string/title_activity_thedetail" >
+        </activity>
+        <activity
+            android:name="com.example.durgshop.AdddurgActivity"
+            android:label="@string/title_activity_adddurg" >
+        </activity>
+    </application>
+
+</manifest>

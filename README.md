@@ -14,7 +14,7 @@ sqlite
 
 ### 登录界面
 
-![img](https://github.com/ryukieinn/online-shop.git/master/img/1.png)
+![img](https://github.com/ryukieinn/online-shop.git/img/1.png)
 
 [^图1 登录界面]: 此图是网上药店的登录界面。用户和管理员进入系统必须要进行登录。在输入账号和密码之后点击登录按钮进行登录，点击注册按钮进行注册，点击忘记密码按钮，进入忘记密码界面。
 
